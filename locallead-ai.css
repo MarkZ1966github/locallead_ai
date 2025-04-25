@@ -1,0 +1,78 @@
+/* LocalLead AI Frontend Styles */
+.locallead-form-wrap {
+    width: 100%;            /* full width container */
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow-x: auto;        /* allow horizontal scroll if needed */
+  }
+  
+  .locallead-form-wrap input[type="text"],
+  .locallead-form-wrap input[type="number"] {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .locallead-form-wrap input[type="text"]:focus,
+  .locallead-form-wrap input[type="number"]:focus {
+    border-color: #0073aa;
+    outline: none;
+  }
+  
+  .locallead-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0073aa;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .locallead-btn:hover {
+    background-color: #005f8d;
+  }
+  
+  #ll-results {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;       /* scroll overflow horizontally */
+  }
+  
+  .locallead-table {
+    width: 100%;            /* span full width */
+    table-layout: auto;     /* auto sizing columns */
+    border-collapse: collapse;
+  }
+  
+  .locallead-table th,
+  .locallead-table td {
+    padding: 8px 12px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  .locallead-table th {
+    background: #f5f5f5;
+  }
+  
+  .locallead-table tr:nth-child(even) {
+    background: #fafafa;
+  }
+  
