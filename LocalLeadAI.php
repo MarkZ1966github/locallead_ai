@@ -3,7 +3,7 @@
  * Plugin Name: LocalLead AI
  * Plugin URI:  https://www.bizleadslocal.com/
  * Description: Automate local lead generation.
- * Version:     1.1.2
+ * Version:     1.1.3
  * Author:      Mark Z Marketing
  * Author URI:  https://www.markzmarketing.com/
  * License:     GPL v2 or later
@@ -42,8 +42,8 @@ class LocalLeadAI {
         wp_localize_script( 'locallead-ai', 'LocalLeadAI', [
             'ajax_url' => admin_url( 'admin-ajax.php' ),
             'can_email_all' => current_user_can( 'edit_posts' ),
-            'upgrade_pro_url' => 'https://example.com/upgrade-pro',
-            'upgrade_elite_url' => 'https://example.com/upgrade-elite',
+            'upgrade_pro_url' => 'https://bizleadslocal.com/upgrade-to-pro/',
+            'upgrade_elite_url' => 'https://bizleadslocal.com/upgrade-to-elite/',
         ] );
     }
 
